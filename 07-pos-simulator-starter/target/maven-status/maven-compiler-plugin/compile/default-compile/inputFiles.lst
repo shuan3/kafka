@@ -1,0 +1,7 @@
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\types\LineItem.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\datagenerator\AddressGenerator.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\datagenerator\InvoiceGenerator.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\types\PosInvoice.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\datagenerator\ProductGenerator.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\serde\JsonSerializer.java
+D:\Github\kafka\07-pos-simulator-starter\src\main\java\guru\learningjournal\kafka\examples\types\DeliveryAddress.java

@@ -1,0 +1,6 @@
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\AppConfigs.java
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\types\LineItem.java
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\types\PosInvoice.java
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\serde\JsonDeserializer.java
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\types\DeliveryAddress.java
+D:\Github\kafka\09-pos-validator-starter\src\main\java\guru\learningjournal\kafka\examples\serde\JsonSerializer.java
