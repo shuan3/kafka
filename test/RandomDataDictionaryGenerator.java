@@ -110,16 +110,20 @@ public class RandomDataDictionaryGenerator {
         // System.out.println(data);
 
         //example 5
-        String[] keys5 = {"id", "name", "isActive", "price", "count", "weight"};
-        Class<?>[] types5 = {Integer.class, String.class, Boolean.class, Double.class, Long.class, Float.class};
-        Map<Class<?>, Object[]> valueDictionary = new HashMap<>(); 
-        valueDictionary.put(String.class, new String[]{"apple", "banana", "cherry", "date"});
-        valueDictionary.put(Boolean.class, new Boolean[]{true, false, true});    
-        ArrayList<Map<String, Object>> data1 = generateRandomData(100000, valueDictionary, keys5, types5);
+        // String[] keys5 = {"id", "name", "isActive", "price", "count", "weight"};
+        // Class<?>[] types5 = {Integer.class, String.class, Boolean.class, Double.class, Long.class, Float.class};
+        // Map<Class<?>, Object[]> valueDictionary = new HashMap<>(); 
+        // valueDictionary.put(String.class, new String[]{"apple", "banana", "cherry", "date"});
+        // valueDictionary.put(Boolean.class, new Boolean[]{true, false, true});    
+        // ArrayList<Map<String, Object>> data1 = generateRandomData(100000, valueDictionary, keys5, types5);
+
+        // System.out.println(data1);
+
+        //example 
+ 
+        ArrayList<Map<String, Object>> data1 = generateRandomData(10, Parameter.valueDictionary, Parameter.keys6, Parameter.types6);
 
         System.out.println(data1);
-
-
 
     }
 }
