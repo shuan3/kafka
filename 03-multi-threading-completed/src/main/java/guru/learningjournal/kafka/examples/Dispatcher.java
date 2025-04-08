@@ -1,14 +1,16 @@
 package guru.learningjournal.kafka.examples;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
+//1.create a runnable dispatcher that takes a kafka producer instance, a topic name, and a file location
+//2. read the file line by line and send each line to the kafka topic and create main thread.
 public class Dispatcher implements Runnable {
     private static final Logger logger = LogManager.getLogger();
     private String fileLocation;

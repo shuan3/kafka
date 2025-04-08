@@ -87,3 +87,15 @@ kafka-topics.bat --describe --zookeeper localhost:2181 --topic invoices
 ls /
 get /controller
 </p>
+
+
+
+
+<h2>Producer</h2>
+
+message timestamp : 1.create time default 2.Log append time
+
+How to achieve exactly once? not sending duplicates.
+set enable.idempotence=true
+1.internal ID for producer instance
+2.message sequence number
